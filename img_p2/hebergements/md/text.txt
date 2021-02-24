@@ -1,0 +1,19 @@
+ Volume in drive C is OS
+ Volume Serial Number is B274-3B9B
+
+ Directory of C:\wamp64\www\OpenClassroom\WebDev_P2\img_p2\hebergements\md
+
+24/02/2021  12:50    <DIR>          .
+24/02/2021  12:50    <DIR>          ..
+19/02/2021  11:54            85ÿ467 annie-spratt-Eg1qcIitAuA-unsplash.jpg
+19/02/2021  11:54           125ÿ952 aw-creative-VGs8z60yT2c-unsplash.jpg
+19/02/2021  11:54            90ÿ148 emile-guillemot-Bj_rcSC5XfE-unsplash.jpg
+19/02/2021  11:54           108ÿ499 febrian-zakaria-M6S1WvfW68A-unsplash.jpg
+19/02/2021  11:54            98ÿ099 febrian-zakaria-sjvU0THccQA-unsplash.jpg
+19/02/2021  11:54            79ÿ032 fred-kleber-gTbaxaVLvsg-unsplash.jpg
+19/02/2021  11:54           163ÿ869 marcus-loke-WQJvWU_HZFo-unsplash.jpg
+19/02/2021  11:54           114ÿ055 nicate-lee-kT-ZyaiwBe0-unsplash.jpg
+19/02/2021  11:54           138ÿ173 reisetopia-B8WIgxA_PFU-unsplash.jpg
+24/02/2021  12:50                 0 text.txt
+              10 File(s)      1ÿ003ÿ294 bytes
+               2 Dir(s)  390ÿ319ÿ902ÿ720 bytes free

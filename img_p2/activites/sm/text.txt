@@ -1,0 +1,16 @@
+ Volume in drive C is OS
+ Volume Serial Number is B274-3B9B
+
+ Directory of C:\wamp64\www\OpenClassroom\WebDev_P2\img_p2\activites\sm
+
+24/02/2021  12:40    <DIR>          .
+24/02/2021  12:40    <DIR>          ..
+19/02/2021  11:54            54ÿ662 florian-wehde-xW9e8gdotxI-unsplash.jpg
+19/02/2021  11:54            32ÿ897 kevin-hikari-rV_Qd1l-VXg-unsplash.jpg
+19/02/2021  11:54            43ÿ796 kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg
+19/02/2021  11:54            30ÿ107 lena-paulin-wH2-EJoDcV0-unsplash.jpg
+19/02/2021  11:54            30ÿ696 paul-hermann-QFTrLdQIRhI-unsplash.jpg
+19/02/2021  11:54            64ÿ829 reno-laithienne-QUgJhdY5Fyk-unsplash.jpg
+24/02/2021  12:40                 0 text.txt
+               7 File(s)        256ÿ987 bytes
+               2 Dir(s)  390ÿ320ÿ328ÿ704 bytes free
