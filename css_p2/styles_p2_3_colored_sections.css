@@ -1,0 +1,91 @@
+/*
+
+Cet espace est reserve pour des commentaires future en relation avec le projet
+Cet espace est reserve pour des commentaires future en relation avec le projet
+Cet espace est reserve pour des commentaires future en relation avec le projet
+Cet espace est reserve pour des commentaires future en relation avec le projet
+
+*/
+
+/* FORMAT CLEARING  ----------------------------- */
+/* 
+format clearing ne sera applique dans ce projet
+*/
+
+/* STYLES EN DEPOT EN ATTENTE...   ----------------------------- */
+/* 
+copier-coller depuis autres projets et sites, etc.
+
+@media (max-width: 425px)
+
+
+*/
+
+
+
+/* ELEMENTS DE STRUCTURE  ----------------------- */
+body{margin: 0 }
+header{background-color: #f0e3fa;} /* Temp color - design color is #ffffff; */
+#conteneur_principal{margin: 0 auto; max-width: 1440px;padding: 0 50px;}
+section{}
+footer{background-color: #e3faeb;}/* Temp color - design color is #ffffff; */
+
+/* EN TETE - HAUT DE PAGE ----------------------- */
+.barre_entete{}
+
+#header_logo{}
+#header_nav{}
+#header_nav_list{}
+#barre_titre{background-color: #bcf7f6;} /* Temp color - design color is #ffffff; */
+
+/* BARRE DE RECHERCHE --------------------------- */
+#barre_recherche{ background-color: #f29696;} /* Temp color - design color is #ffffff; */
+#form_recherche{}
+#requete_usager{}
+#form_recherche_submit{}
+
+/* BARRE DE FILTRE ----------------------------- */
+#barre_filtre{background-color: #ad0;} /* Temp color - design color is #ffffff; */
+.barre_filtre_icon{}
+
+/* BARRE DE NAVIGATION - ENTETE ---------------- */
+#header_nav_list{}
+
+/* BARRE D'INFORMATION ------------------------- */
+#barre_info{background-color: #dd0;}/* Temp color - design color is #ffffff; */
+
+/* SECTIONS DE CONTENU ------------------------- */
+.bloc_contenu{padding: 25px; background-color: #f2f2f2;} 
+
+/* SECTION_1_HEBERGEMENTS ----------------------- */
+#section_1_hebergements{background-color: #e3e3fa;} /* Temp color - design color is #f2f2f2; */
+#section_1_hebergements h2{}
+.section_1_element{}
+.section_1_element_titre{}
+.section_1_element_description{}
+.section_1_element_etoiles{}
+
+
+/* SECTION_2_POPULAIRES ----------------------- */
+#section_2_populaires{background-color: #faae84;} /* Temp color - design color is #f2f2f2; */
+#section_2_populaires h2{}
+.section_2_element{}
+.section_2_element_titre{}
+.section_2_element_description{}
+.section_2_element_etoiles{}
+
+
+/* SECTION_3_ACTIVITES ----------------------- */
+#section_3_activites{background-color: #f2c7e2;} /* Temp color - design color is #f2f2f2; */
+#section_3_activites h2{}
+.section_3_element{}
+.section_3_element_titre{}
+
+
+/* PIED DE PAGE ------------------------------ */
+.footer_nav{}
+#footer_nav_1{}
+#footer_nav_2{}
+#footer_nav_3{}
+
+
