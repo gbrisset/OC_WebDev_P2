@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="css_p2/styles_p2_2_raw_css.css?v=1.0">
 	<link rel="stylesheet" href="css_p2/styles_p2_3_colored_sections.css?v=1.0">
 	 --------------------------------------------------------------- -->
-	<link rel="stylesheet" href="css_p2/styles_p2.css?v=0.3.0">
+	<link rel="stylesheet" href="css_p2/styles_p2.css?v=0.3.2">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
@@ -36,46 +36,46 @@
 <!-- -------------- En tete --------------------------------  -->
 <header>
 	<!-- -------------- LOGO ----------------  -->
-	<img id="header_logo" src="img_p2/logo/Reservia.svg"/>
+	<div id="header_logo"><img src="img_p2/logo/Reservia.svg"/></div>
 	<!-- -------------- NavBar --------------  -->
 	<nav id="header_nav">
 		<ul id="header_nav_list">
-			<li>xxx_header_nav_element</li>
-			<li>xxx_header_nav_element</li>
-			<li>xxx_header_nav_element</li>
+			<li><a href="#">Hébergement</a></li>
+			<li class="selection"><a href="#">Activités</a></li>
 		</ul>
 	</nav>
-	<!-- -------------- Fin de NavBar -------- -->
+	<!-- -------------- Inscription ---------- -->
+	<div id="header_inscription" class="riservia_bleu gras"><a href="#" />S'inscrire</a></div>
 	
-	<!-- -------------- Barre de Titre -------- -->
-	<div id="barre_titre" class="barre_entete">
-		<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-		<p>En plein centre ville ou en pleine nature</p>
-	</div>
-	<!-- -------------- Fin de Barre de Titre -------- -->
 </header>
 <!-- -------------- Fin de En tete -------------------------  -->
 
+<!-- -------------- Barre de Titre ---------------------- -->
+<div id="barre_titre" class="barre_entete">
+	<h1 id="barre_titre_titre">Trouvez votre hébergement pour des vacances de rêve</h1>
+	<p id="barre_titre_sous_titre">En plein centre ville ou en pleine nature</p>
+</div>
+<!-- -------------- Fin de Barre de Titre --------------- -->
+
 <!-- -------------- Barre de recherche ---------------------  -->
 <div id="barre_recherche" class="barre_entete">
-	<form id="form_recherche">
-		<span>SEARCH ICON </span><!-- Remplacer SPAN tag avec Font Awesome icone - GB 2021-03-03 -->
-		<input type="text" 	 id="requete_usager" 		name="requete_usager">
-		<input type="submit" id="form_recherche_submit" name="Rechercher">
-	</form>
-	
+	<div id="barre_recherche_contenu">
+		<form id="form_recherche">
+			<span>SEARCH ICON </span><!-- Remplacer SPAN tag avec Font Awesome icone - GB 2021-03-03 -->
+			<input type="text" 	 id="requete_usager" 		name="requete_usager">
+			<input type="submit" id="form_recherche_submit" name="Rechercher">
+		</form>
+	</div>
 </div>
 <!-- -------------- Fin de Barre de recherche --------------  -->
 
 <!-- -------------- Barre de Filtre ------------------------  -->
 <div id="barre_filtre" class="barre_entete">
 	<h3>Filtres</h3>
-	<ul id="header_nav_list">
-		<li><i class="barre_filtre_icon fas fa-money-bill-wave"></i>Economique</li>
-		<li><i class="barre_filtre_icon fas fa-child"></i>Familial</li>
-		<li><i class="barre_filtre_icon fas fa-heart"></i>Romantique</li>
-		<li><i class="barre_filtre_icon fas fa-dog"></i>Animaux autorisés</li>
-	</ul>
+	<div class="barre_filtre_element"><i class="barre_filtre_icon fas fa-money-bill-wave"></i>Economique</div>
+	<div class="barre_filtre_element"><i class="barre_filtre_icon fas fa-child"></i>Familial</div>
+	<div class="barre_filtre_element"><i class="barre_filtre_icon fas fa-heart"></i>Romantique</div>
+	<div class="barre_filtre_element"><i class="barre_filtre_icon fas fa-dog"></i>Animaux autorisés</div>
 </div>
 <!-- -------------- Fin de Barre de Filtre -----------------  -->
 
@@ -88,157 +88,171 @@
 </div>
 <!-- -------------- Fin de Barre d'information -------------  -->
 
-<!-- -------------- SEction 1 - Hebergements ---------------  -->
-<!-- -------------- SEction 1 - Hebergements ---------------  -->
-<section id="section_1_hebergements" class="bloc_contenu">
-	<h2>xxxx_section_1_hébergement</h2>
-	<div id="section_1_element_1" class="section_1_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_1_element_description">Description_de_la_prestation</p>
-		<div class="section_1_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-		</div>
-	</div>
-	<div id="section_1_element_2" class="section_1_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_1_element_description">Description_de_la_prestation</p>
-		<div class="section_1_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>			
-		</div>
-	</div>
-	<div id="section_1_element_3" class="section_1_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_1_element_description">Description_de_la_prestation</p>
-		<div class="section_1_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-		</div>
-	</div>
-	<div id="section_1_element_4" class="section_1_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_1_element_description">Description_de_la_prestation</p>
-		<div class="section_1_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-		</div>
-	</div>
-	<div id="section_1_element_5" class="section_1_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_1_element_description">Description_de_la_prestation</p>
-		<div class="section_1_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-		</div>
-	<div id="section_1_element_6" class="section_1_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_1_element_description">Description_de_la_prestation</p>
-		<div class="section_1_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-		</div>
-	</div>
-</section>
-<!-- -------------- Fin de SEction 1 - Hebergements --------  -->
-<!-- -------------- Fin de SEction 1 - Hebergements --------  -->
+<div id="conteneur_sec1_sec2">
+	<!-- -------------- SEction 1 - Hebergements ---------------  -->
+	<!-- -------------- SEction 1 - Hebergements ---------------  -->
+	<section id="section_1_hebergements" class="bloc_contenu">
+		<h2>xxxx_section_1_hébergement</h2>
 
-<!-- -------------- Section 2 - Popupaires -----------------  -->
-<!-- -------------- Section 2 - Popupaires -----------------  -->
-<section id="section_2_populaires" class="bloc_contenu">
-	<h2>xxxx_section_2_Populaires</h2>
-	<div id="section_2_element_1" class="section_2_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_2_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_2_element_description">Description_de_la_prestation</p>
-		<div class="section_2_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
+		<div id="section_1_rang_1">
+			<div id="section_1_element_1" class="section_1_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
+				<p class="section_1_element_description">Description_section_1_element_1</p>
+				<div class="section_1_element_etoiles">
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_off"></i>
+				</div>
+			</div>
+			<div id="section_1_element_2" class="section_1_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
+				<p class="section_1_element_description">Description_section_1_element_2</p>
+				<div class="section_1_element_etoiles">
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>			
+				</div>
+			</div>
+			<div id="section_1_element_3" class="section_1_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
+				<p class="section_1_element_description">Description_section_1_element_3</p>
+				<div class="section_1_element_etoiles">
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_off"></i>
+				</div>
+			</div>
+		</div><!-- section_1_rang_1 -->	
+		<div id="section_1_rang_2">
+			<div id="section_1_element_4" class="section_1_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
+				<p class="section_1_element_description">Description_section_1_element_4</p>
+				<div class="section_1_element_etoiles">
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_off"></i>
+					<i class="fas fa-star star_off"></i>
+				</div>
+			</div>
+			<div id="section_1_element_5" class="section_1_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
+				<p class="section_1_element_description">Description_section_1_element_5</p>
+				<div class="section_1_element_etoiles">
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_off"></i>
+				</div>
+			</div>
+			<div id="section_1_element_6" class="section_1_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_1_element_titre">Nom_de_la_prestation</h4>
+				<p class="section_1_element_description">Description_section_1_element_6</p>
+				<div class="section_1_element_etoiles">
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+					<i class="fas fa-star star_on"></i>
+				</div>
+			</div>
+		</div><!-- section_1_rang_2 -->
+	</section>
+	<!-- -------------- Fin de SEction 1 - Hebergements --------  -->
+	<!-- -------------- Fin de SEction 1 - Hebergements --------  -->
+
+	<!-- -------------- Section 2 - Popupaires -----------------  -->
+	<!-- -------------- Section 2 - Popupaires -----------------  -->
+	<section id="section_2_populaires" class="bloc_contenu">
+		<h2>xxxx_section_2_Populaires</h2>
+		<div id="section_2_element_1" class="section_2_element">
+			<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+			<h4 class="section_2_element_titre">Nom_de_la_prestation</h4>
+			<p class="section_2_element_description">Description_de_la_prestation</p>
+			<div class="section_2_element_etoiles">
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+			</div>
 		</div>
-	</div>
-	<div id="section_2_element_2" class="section_2_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_2_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_2_element_description">Description_de_la_prestation</p>
-		<div class="section_2_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
+		<div id="section_2_element_2" class="section_2_element">
+			<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+			<h4 class="section_2_element_titre">Nom_de_la_prestation</h4>
+			<p class="section_2_element_description">Description_de_la_prestation</p>
+			<div class="section_2_element_etoiles">
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+			</div>
 		</div>
-	</div>
-	<div id="section_2_element_3" class="section_2_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_2_element_titre">Nom_de_la_prestation</h4>
-		<p class="section_2_element_description">Description_de_la_prestation</p>
-		<div class="section_2_element_etoiles">
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
-			<i class="fas fa-star star_blue"></i>
+		<div id="section_2_element_3" class="section_2_element">
+			<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+			<h4 class="section_2_element_titre">Nom_de_la_prestation</h4>
+			<p class="section_2_element_description">Description_de_la_prestation</p>
+			<div class="section_2_element_etoiles">
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+				<i class="fas fa-star star_on"></i>
+			</div>
 		</div>
-	</div>
-</section>
-<!-- -------------- Fin de Section 2 - Popupaires ----------  -->
-<!-- -------------- Fin de Section 2 - Popupaires ----------  -->
+	</section>
+	<!-- -------------- Fin de Section 2 - Popupaires ----------  -->
+	<!-- -------------- Fin de Section 2 - Popupaires ----------  -->
+</div><!-- conteneur_sec1_sec2 -->
 
 <!-- -------------- Section 3 - Activites ------------------  -->
 <!-- -------------- Section 3 - Activites ------------------  -->
 <section id="section_3_activites" class="bloc_contenu">
 	<h2>xxxx_section_3_Activités</h2>
-	<div id="section_3_element_1" class="section_3_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_3_element_titre">Nom_de_la_prestation</h4>
-	</div>
-	<div id="section_3_element_2" class="section_3_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_3_element_titre">Nom_de_la_prestation</h4>
-	</div>
-	<div id="section_3_element_3" class="section_3_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_3_element_titre">Nom_de_la_prestation</h4>
-	</div>
-	<div id="section_3_element_4" class="section_3_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_3_element_titre">Nom_de_la_prestation</h4>
-	</div>
-	<div id="section_3_element_5" class="section_3_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_3_element_titre">Nom_de_la_prestation</h4>
-	</div>
-	<div id="section_3_element_6" class="section_3_element">
-		<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
-		<h4 class="section_3_element_titre">Nom_de_la_prestation</h4>
-	</div>
+	<div id="section_3_flex_container">
+		<div id="section_3_grid_container_1">
+			<div id="section_3_element_1" class="section_3_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_3_element_titre">Nom_de_section_3_element_1</h4>
+			</div>
+			<div id="section_3_element_2" class="section_3_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_3_element_titre">Nom_de_section_3_element_2</h4>
+			</div>
+			<div id="section_3_element_3" class="section_3_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_3_element_titre">Nom_de_section_3_element_3</h4>
+			</div>
+		</div><!-- section_3_grid_container_1 -->
+		<div id="section_3_grid_container_2">
+			<div id="section_3_element_4" class="section_3_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_3_element_titre">Nom_de_section_3_element_4</h4>
+			</div>
+			<div id="section_3_element_5" class="section_3_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_3_element_titre">Nom_de_section_3_element_5</h4>
+			</div>
+			<div id="section_3_element_6" class="section_3_element">
+				<p>IMG_DE_LA_PRESTATION_SERA_ICI</p><!-- Remplace le P tag avec le IMG tag GB 2021-03-03-->
+				<h4 class="section_3_element_titre">Nom_de_section_3_element_6</h4>
+			</div>
+		</div><!-- section_3_grid_container_2 -->
+	</div><!-- section_3_flex_container -->
 </section>
 <!-- -------------- Fin de Section 3 - Activites -----------  -->
 <!-- -------------- Fin de Section 3 - Activites -----------  -->
@@ -246,34 +260,30 @@
 <!-- -------------- Footer - Pied de page ------------------  -->
 <!-- -------------- Footer - Pied de page ------------------  -->
 <footer>
-<nav id="footer_nav_1" class="footer_nav">
-	<h3>xxxxx_footer_nav</h3>
-	<ul>
-		<li>xxx_footer_nav_element</li>
-		<li>xxx_footer_nav_element</li>
-		<li>xxx_footer_nav_element</li>
-	</ul>
-
-</nav>
-<nav id="footer_nav_2" class="footer_nav">
-	<h3>xxxxx_footer_nav</h3>
-	<ul>
-		<li>xxx_footer_nav_element</li>
-		<li>xxx_footer_nav_element</li>
-		<li>xxx_footer_nav_element</li>
-	</ul>
-
-</nav>
-<nav id="footer_nav_3" class="footer_nav">
-	<h3>xxxxx_footer_nav</h3>
-	<ul>
-		<li>xxx_footer_nav_element</li>
-		<li>xxx_footer_nav_element</li>
-		<li>xxx_footer_nav_element</li>
-	</ul>
-
-</nav>
-	
+	<nav id="footer_nav_1" class="footer_nav">
+		<h3>xxxxx_footer_nav</h3>
+		<ul>
+			<li>xxx_footer_nav_element</li>
+			<li>xxx_footer_nav_element</li>
+			<li>xxx_footer_nav_element</li>
+		</ul>
+	</nav>
+	<nav id="footer_nav_2" class="footer_nav">
+		<h3>xxxxx_footer_nav</h3>
+		<ul>
+			<li>xxx_footer_nav_element</li>
+			<li>xxx_footer_nav_element</li>
+			<li>xxx_footer_nav_element</li>
+		</ul>
+	</nav>
+	<nav id="footer_nav_3" class="footer_nav">
+		<h3>xxxxx_footer_nav</h3>
+		<ul>
+			<li>xxx_footer_nav_element</li>
+			<li>xxx_footer_nav_element</li>
+			<li>xxx_footer_nav_element</li>
+		</ul>
+	</nav>
 </footer>
 <!-- -------------- Fin de Footer - Pied de page -----------  -->
 <!-- -------------- Fin de Footer - Pied de page -----------  -->
